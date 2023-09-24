@@ -40,10 +40,10 @@ ggplot(data.frame(sample),aes(x=1,y=sample)) + geom_violin()
 ### 4. Report mean and standard deviation of the sample
 
 ```{r}
-mean = mean(sample)
+mean <- mean(sample)
 print(paste("The mean of the sample is:", mean))
-sd = sd(sample)
+sd <- sd(sample)
 print(paste("The standard deviation of the sample is:",sd))
 ```
 
-The mean and standard deviation rounded to the second decimal are $186.88$ and $138.73$ respectively.
+The mean and standard deviation are `r mean` and `r sd` respectively.
